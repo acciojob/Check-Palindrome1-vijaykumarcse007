@@ -13,7 +13,7 @@ function palindrome(str){
 			count2+=1;
 		}
 	}
-	if(count2===1){
+	if(count2>=1){
 		return false;
 	}
 	else{
